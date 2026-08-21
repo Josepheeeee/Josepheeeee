@@ -28,7 +28,6 @@
 | :-- | :-- |
 | [**TIGER Recommender**](https://github.com/Josepheeeee/tiger-recommender) | Semantic-ID → next-item recommendation with a deterministic, CPU-friendly smoke path. |
 | [**Lookalike Ranking**](https://github.com/Josepheeeee/lookalike-ranking) | Leakage-safe audience expansion with explicit prior/current/future data windows. |
-| [**LLM4Rec TIGER**](https://github.com/Josepheeeee/llm4rec-tiger) | End-to-end exploration of sequential representations, semantic IDs, and generative recommendation. |
 
 ## 🛠️ Toolbox
 
