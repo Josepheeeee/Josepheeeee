@@ -28,6 +28,8 @@
 | :-- | :-- |
 | [**TIGER Recommender**](https://github.com/Josepheeeee/tiger-recommender) | Semantic-ID → next-item recommendation with a deterministic, CPU-friendly smoke path. |
 | [**Lookalike Ranking**](https://github.com/Josepheeeee/lookalike-ranking) | Leakage-safe audience expansion with explicit prior/current/future data windows. |
+| [**Financial Document Reconstruction**](https://github.com/Josepheeeee/financial-document-reconstruction) | Image preprocessing, table segmentation, structural cleanup, and Markdown reconstruction. |
+| [**NL2SQL Execution Evaluator**](https://github.com/Josepheeeee/nl2sql-execution-evaluator) | SQLite execution and SQL-structure evaluation utilities for generated SQL. |
 
 ## 🛠️ Toolbox
 
