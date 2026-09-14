@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Atlas — AI Systems</title>
+  <desc id="desc">A moving systems map for agentic systems, reproducible machine learning, and practical engineering.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090d1a"/>
+      <stop offset="0.58" stop-color="#15152e"/>
+      <stop offset="1" stop-color="#062b35"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="0.5" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#6ee7b7"/>
+    </linearGradient>
+    <radialGradient id="violetGlow">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cyanGlow">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#c4b5fd" stroke-opacity="0.075" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="300" rx="26"/></clipPath>
+    <style>
+      .orb { transform-box: fill-box; transform-origin: center; animation: drift 11s ease-in-out infinite alternate; }
+      .orb-cyan { animation-delay: -4s; animation-duration: 14s; }
+      .flow { stroke-dasharray: 5 12; animation: flow 7s linear infinite; }
+      .flow-slow { animation-duration: 11s; animation-delay: -3s; }
+      .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.8s ease-in-out infinite; }
+      .pulse-2 { animation-delay: -1.2s; }
+      @keyframes drift { from { transform: translate(-18px, 8px) scale(0.94); } to { transform: translate(20px, -12px) scale(1.08); } }
+      @keyframes flow { to { stroke-dashoffset: -102; } }
+      @keyframes pulse { 0%, 100% { opacity: 0.35; transform: scale(0.72); } 50% { opacity: 1; transform: scale(1.12); } }
+      @media (prefers-reduced-motion: reduce) { .orb, .flow, .pulse { animation: none; } }
+    </style>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <circle class="orb" cx="220" cy="80" r="220" fill="url(#violetGlow)"/>
+    <circle class="orb orb-cyan" cx="1040" cy="260" r="240" fill="url(#cyanGlow)"/>
+    <rect width="1200" height="300" fill="url(#grid)"/>
+    <path d="M-30 268C150 218 270 300 430 248S770 198 1235 260" fill="none" stroke="url(#accent)" stroke-opacity="0.22" stroke-width="1.5"/>
+    <path d="M-30 280C160 230 292 310 466 263S820 216 1235 272" fill="none" stroke="#e0e7ff" stroke-opacity="0.08"/>
+
+    <g transform="translate(790 54)">
+      <g fill="none" stroke="url(#accent)" stroke-width="1.2" stroke-opacity="0.42">
+        <path class="flow" d="M55 74L160 28L255 74L352 34"/>
+        <path class="flow flow-slow" d="M55 74L160 142L255 74L352 136"/>
+        <path class="flow" d="M160 28L160 142M255 74L255 214M160 142L255 214"/>
+      </g>
+      <g fill="#0b1223" stroke="#94a3b8" stroke-opacity="0.6">
+        <rect x="20" y="51" width="70" height="46" rx="12"/>
+        <rect x="125" y="5" width="70" height="46" rx="12"/>
+        <rect x="220" y="51" width="70" height="46" rx="12"/>
+        <rect x="317" y="11" width="70" height="46" rx="12"/>
+        <rect x="125" y="119" width="70" height="46" rx="12"/>
+        <rect x="220" y="191" width="70" height="46" rx="12"/>
+        <rect x="317" y="113" width="70" height="46" rx="12"/>
+      </g>
+      <g fill="#cbd5e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" text-anchor="middle" letter-spacing="1">
+        <text x="55" y="79">MODEL</text>
+        <text x="160" y="33">ROUTE</text>
+        <text x="255" y="79">TOOLS</text>
+        <text x="352" y="39">DATA</text>
+        <text x="160" y="147">GUARD</text>
+        <text x="255" y="219">EVAL</text>
+        <text x="352" y="141">TRACE</text>
+      </g>
+      <g fill="#67e8f9" filter="url(#softGlow)">
+        <circle class="pulse" cx="55" cy="74" r="3"/>
+        <circle class="pulse pulse-2" cx="255" cy="74" r="3"/>
+        <circle class="pulse" cx="255" cy="214" r="3"/>
+      </g>
+    </g>
+
+    <g transform="translate(72 62)" font-family="Inter,Segoe UI,Arial,sans-serif">
+      <text fill="#a5b4fc" font-size="13" font-weight="600" letter-spacing="3">ATLAS  /  SYSTEMS NOTEBOOK</text>
+      <text y="68" fill="#f8fafc" font-size="56" font-weight="750" letter-spacing="-1.5">AI systems,</text>
+      <text y="126" fill="url(#accent)" font-size="56" font-weight="750" letter-spacing="-1.5">built to be measured.</text>
+      <rect y="158" width="190" height="2" rx="1" fill="url(#accent)"/>
+      <text y="190" fill="#cbd5e1" font-size="16" letter-spacing="0.3">Agent &amp; LLM  ·  Reproducible ML  ·  Practical Engineering</text>
+    </g>
+    <text x="1124" y="274" fill="#99f6e4" fill-opacity="0.62" font-family="monospace" font-size="10" text-anchor="end" letter-spacing="2">MODEL → TOOL → DATA → EVAL</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="298" rx="25" fill="none" stroke="#c4b5fd" stroke-opacity="0.16"/>
+</svg>

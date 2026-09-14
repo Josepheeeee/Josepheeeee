@@ -1,6 +1,6 @@
 <div align="center">
 
-![Atlas — AI Systems](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=30&duration=3000&pause=800&color=F8FAFC&background=0F172A&center=true&vCenter=true&width=1200&height=180&lines=ATLAS+%2F%2F+AI+SYSTEMS;AGENT+%26+LLM+%C2%B7+REPRODUCIBLE+ML+%C2%B7+PRACTICAL+ENGINEERING)
+![Atlas — AI Systems](./assets/atlas-header.svg)
 
 <a href="https://github.com/Josepheeeee?tab=repositories"><img src="https://img.shields.io/badge/Explore%20projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore projects"></a>
 <a href="https://github.com/Josepheeeee"><img src="https://img.shields.io/badge/GitHub-Josepheeeee-4338CA?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
