@@ -1,54 +1,106 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,45:2563EB,100:38BDF8&height=190&section=header&text=Joseph%20%2F%2F%20Algorithm%20Engineering&fontSize=31&fontColor=F8FAFC&animation=fadeIn&fontAlignY=38&desc=Recommender%20Systems%20%C2%B7%20Applied%20Machine%20Learning%20%C2%B7%20Reproducible%20Research&descAlignY=60&descSize=14)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,45:4338CA,100:14B8A6&height=210&section=header&text=Atlas%20%2F%2F%20AI%20Systems&fontSize=34&fontColor=F8FAFC&animation=fadeIn&fontAlignY=38&desc=Agent%20%26%20LLM%20%C2%B7%20Reproducible%20ML%20%C2%B7%20Practical%20Engineering&descAlignY=61&descSize=14)
 
-<a href="https://github.com/Josepheeeee?tab=repositories"><img src="https://img.shields.io/badge/Explore_my_projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore projects"></a>
-<img src="https://img.shields.io/badge/Focus-RecSys%20%26%20Ranking-2563EB?style=for-the-badge" alt="Focus">
+<a href="https://github.com/Josepheeeee?tab=repositories"><img src="https://img.shields.io/badge/Explore%20projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore projects"></a>
+<a href="https://github.com/Josepheeeee"><img src="https://img.shields.io/badge/GitHub-Josepheeeee-4338CA?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
 
 </div>
 
-## 👋 Hi, I'm Joseph
+## 👋 Hi, I’m Atlas
 
-> Building machine-learning experiments that are easy to understand, reproduce, and extend.
+### AI/ML Systems Engineer · Agent & LLM
 
-- 🔭 **Now exploring:** semantic IDs, generative recommendation, and robust ranking
-- 🧪 **I value:** clear data contracts, leakage-safe evaluation, and deterministic smoke tests
-- 🌱 **Learning:** recommendation systems, applied LLMs, and ML systems engineering
-- 💬 **Happy to discuss:** ranking, retrieval, experiment design, and reproducibility
+I build machine-learning systems that connect models with real tools, data contracts, evaluation loops, and reproducible engineering workflows.
 
-## 🧭 What I work on
+<table>
+<tr>
+<td width="50%">
 
-| 🎯 Recommendation | 📈 Ranking & Lookalike |
-| :-- | :-- |
-| Sequential modelling · semantic identifiers · next-item ranking<br><br>`SASRec` `RQ-VAE` `LLM` | Feature design · imbalance · time-aware offline evaluation<br><br>`XGBoost` `LightGBM` `Python` |
+**What I work on**
 
-## ✨ Featured projects
+<code>Agent systems</code> <code>LLM post-training</code> <code>NL2SQL</code><br>
+<code>Document AI</code> <code>Data pipelines</code> <code>Evaluation</code>
 
-| Project | Highlight |
-| :-- | :-- |
-| [**TIGER Recommender**](https://github.com/Josepheeeee/tiger-recommender) | Semantic-ID → next-item recommendation with a deterministic, CPU-friendly smoke path. |
-| [**Lookalike Ranking**](https://github.com/Josepheeeee/lookalike-ranking) | Leakage-safe audience expansion with explicit prior/current/future data windows. |
-| [**Financial Document Reconstruction**](https://github.com/Josepheeeee/financial-document-reconstruction) | Image preprocessing, table segmentation, structural cleanup, and Markdown reconstruction. |
-| [**NL2SQL Execution Evaluator**](https://github.com/Josepheeeee/nl2sql-execution-evaluator) | SQLite execution and SQL-structure evaluation utilities for generated SQL. |
+</td>
+<td width="50%">
 
-## 🛠️ Toolbox
+**What I care about**
+
+Clear interfaces · deterministic guards<br>
+Leakage-safe evaluation · honest conclusions
+
+</td>
+</tr>
+</table>
+
+## ✨ Selected work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🛒 [Shopping Agent Post-training](https://github.com/Josepheeeee/shopping-agent-posttraining)
+
+LoRA SFT + veRL GRPO for long-horizon shopping agents that must search, verify, select variants, and purchase.
+
+<strong>Highlight:</strong> Baseline 1.0% → SFT 57.0%; GRPO 58.5%, with the current SFT→GRPO gain not statistically significant.
+
+</td>
+<td width="50%" valign="top">
+
+### 🧩 [DeepVision NL2SQL](https://github.com/Josepheeeee/deepvision-nl2sql)
+
+Stateful natural-language querying with table routing, schema-aware semantic parsing, constrained DSL, deterministic SQL compilation, and read-only MCP tools.
+
+<strong>Highlight:</strong> LLM handles semantic mapping; code owns SQL structure and safety boundaries.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📄 [AFAC Document Repair](https://github.com/Josepheeeee/afac-document-repair)
+
+Conservative financial-table structure repair using directional morphology, line detection, chunk-aware processing, and regression checks.
+
+<strong>Highlight:</strong> Team result: B-rank #7; my focus was table-header repair and regression coverage.
+
+</td>
+<td width="50%" valign="top">
+
+### 📊 [Seagate Fail Monitor](https://github.com/Josepheeeee/seagate-fail-monitor)
+
+A local, synthetic-data reproduction of a manufacturing quality-monitoring workflow from source tables to dashboard, alert outbox, and traceable results.
+
+<strong>Highlight:</strong> Runnable backend + frontend demo with deterministic failure injection and recovery paths.
+
+</td>
+</tr>
+</table>
+
+## 🧰 Toolbox
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
-  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn">
-  <img src="https://img.shields.io/badge/XGBoost-006600?style=flat-square" alt="XGBoost">
+  <img src="https://img.shields.io/badge/LangGraph-111827?style=flat-square" alt="LangGraph">
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV">
   <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="SQL">
+  <img src="https://img.shields.io/badge/MCP-0F766E?style=flat-square" alt="MCP">
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
 </p>
 
-## 📌 Research notes
+## 🧭 How I build
 
-```text
-Good ML work is more than a score:
-  a clear question → a valid split → a reproducible run → an honest conclusion
-```
+~~~text
+question → explicit data contract → small reproducible run
+        → deterministic checks → paired evaluation → honest conclusion
+~~~
+
+I prefer a useful limitation over an impressive but unsupported claim. Each project README includes the current implementation boundary and the fastest path for a technical reader to reproduce or inspect it.
 
 <div align="center">
-  <sub>Thanks for stopping by. Feel free to explore the projects or start a conversation. ✨</sub>
+  <sub>Thanks for stopping by · Explore the repositories or start a conversation on GitHub.</sub>
 </div>
