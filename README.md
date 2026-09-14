@@ -1,6 +1,6 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,45:4338CA,100:14B8A6&height=210&section=header&text=Atlas%20%2F%2F%20AI%20Systems&fontSize=34&fontColor=F8FAFC&animation=fadeIn&fontAlignY=38&desc=Agent%20%26%20LLM%20%C2%B7%20Reproducible%20ML%20%C2%B7%20Practical%20Engineering&descAlignY=61&descSize=14)
+![Atlas — AI Systems](./assets/atlas-header.svg)
 
 <a href="https://github.com/Josepheeeee?tab=repositories"><img src="https://img.shields.io/badge/Explore%20projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore projects"></a>
 <a href="https://github.com/Josepheeeee"><img src="https://img.shields.io/badge/GitHub-Josepheeeee-4338CA?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
