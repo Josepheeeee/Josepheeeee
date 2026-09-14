@@ -52,11 +52,11 @@
       <text x="18" y="96" fill="#f0f6fc" font-size="14">cat ./focus</text>
       <text x="0" y="122" fill="#79c0ff" font-size="13">agents</text>
       <text x="70" y="122" fill="#484f58" font-size="13">/</text>
-      <text x="88" y="122" fill="#a5d6ff" font-size="13">evaluation</text>
-      <text x="178" y="122" fill="#484f58" font-size="13">/</text>
-      <text x="196" y="122" fill="#d2a8ff" font-size="13">data systems</text>
-      <text x="308" y="122" fill="#484f58" font-size="13">/</text>
-      <text x="326" y="122" fill="#7ee787" font-size="13">infra</text>
+      <text x="88" y="122" fill="#a5d6ff" font-size="13">LLM post-training</text>
+      <text x="226" y="122" fill="#484f58" font-size="13">/</text>
+      <text x="244" y="122" fill="#d2a8ff" font-size="13">NL2SQL</text>
+      <text x="306" y="122" fill="#484f58" font-size="13">/</text>
+      <text x="324" y="122" fill="#7ee787" font-size="13">document AI</text>
 
       <text x="0" y="158" fill="#3fb950" font-size="14">$</text>
       <text x="18" y="158" fill="#f0f6fc" font-size="14">make reliable</text>
