@@ -1,6 +1,6 @@
 <div align="center">
 
-![Atlas — AI Systems](./assets/atlas-header.svg)
+![Atlas — AI Systems](./assets/atlas-systems-v2.svg)
 
 <a href="https://github.com/Josepheeeee?tab=repositories"><img src="https://img.shields.io/badge/Explore%20projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore projects"></a>
 <a href="https://github.com/Josepheeeee"><img src="https://img.shields.io/badge/GitHub-Josepheeeee-4338CA?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
