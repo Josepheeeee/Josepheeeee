@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
+  <title id="title">Atlas — Systems Engineer</title>
+  <desc id="description">An animated terminal workspace showing build checks, Git state, and engineering focus.</desc>
+  <defs>
+    <pattern id="grain" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.45" fill="#f0f6fc" opacity="0.025"/>
+    </pattern>
+    <clipPath id="window"><rect x="12" y="12" width="1176" height="276" rx="12"/></clipPath>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .flow { stroke-dasharray: 4 8; animation: flow 5s linear infinite; }
+      .blink { animation: blink 1.05s steps(1,end) infinite; }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; }
+      .log-1 { animation: log 8s ease-in-out infinite; }
+      .log-2 { animation: log 8s ease-in-out -1.3s infinite; }
+      .log-3 { animation: log 8s ease-in-out -2.6s infinite; }
+      .log-4 { animation: log 8s ease-in-out -3.9s infinite; }
+      @keyframes flow { to { stroke-dashoffset: -96; } }
+      @keyframes blink { 0%,48% { opacity: 1; } 49%,100% { opacity: 0; } }
+      @keyframes pulse { 0%,100% { opacity: .35; } 50% { opacity: 1; } }
+      @keyframes log { 0%,12% { opacity: .35; } 20%,72% { opacity: 1; } 88%,100% { opacity: .35; } }
+      @media (prefers-reduced-motion: reduce) { .flow,.blink,.pulse,.log-1,.log-2,.log-3,.log-4 { animation: none; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="300" rx="14" fill="#010409"/>
+  <g clip-path="url(#window)">
+    <rect x="12" y="12" width="1176" height="276" rx="12" fill="#0d1117"/>
+    <rect x="12" y="12" width="1176" height="276" fill="url(#grain)"/>
+
+    <rect x="12" y="12" width="1176" height="42" fill="#161b22"/>
+    <line x1="12" y1="54" x2="1188" y2="54" stroke="#30363d"/>
+    <circle cx="35" cy="33" r="5" fill="#f85149" opacity="0.85"/>
+    <circle cx="53" cy="33" r="5" fill="#d29922" opacity="0.85"/>
+    <circle cx="71" cy="33" r="5" fill="#3fb950" opacity="0.85"/>
+    <text x="94" y="38" class="mono" fill="#8b949e" font-size="12">atlas@localhost — zsh — 120×30</text>
+    <text x="1161" y="38" class="mono" fill="#484f58" font-size="11" text-anchor="end">tty0</text>
+
+    <line x1="686" y1="54" x2="686" y2="263" stroke="#30363d"/>
+
+    <g class="mono" transform="translate(44 80)">
+      <text x="0" y="0" fill="#8b949e" font-size="12">atlas@local</text>
+      <text x="82" y="0" fill="#c9d1d9" font-size="12">~/systems</text>
+      <text x="156" y="0" fill="#d29922" font-size="12">‹main*›</text>
+
+      <text x="0" y="34" fill="#3fb950" font-size="14">$</text>
+      <text x="18" y="34" fill="#f0f6fc" font-size="14">whoami</text>
+      <text x="0" y="62" fill="#f0f6fc" font-size="28" font-weight="700" letter-spacing="1.5">ATLAS</text>
+      <text x="118" y="62" fill="#8b949e" font-size="14">systems engineer</text>
+
+      <text x="0" y="96" fill="#3fb950" font-size="14">$</text>
+      <text x="18" y="96" fill="#f0f6fc" font-size="14">cat ./focus</text>
+      <text x="0" y="122" fill="#79c0ff" font-size="13">agents</text>
+      <text x="70" y="122" fill="#484f58" font-size="13">/</text>
+      <text x="88" y="122" fill="#a5d6ff" font-size="13">evaluation</text>
+      <text x="178" y="122" fill="#484f58" font-size="13">/</text>
+      <text x="196" y="122" fill="#d2a8ff" font-size="13">data systems</text>
+      <text x="308" y="122" fill="#484f58" font-size="13">/</text>
+      <text x="326" y="122" fill="#7ee787" font-size="13">infra</text>
+
+      <text x="0" y="158" fill="#3fb950" font-size="14">$</text>
+      <text x="18" y="158" fill="#f0f6fc" font-size="14">make reliable</text>
+      <rect x="143" y="145" width="8" height="17" rx="1" fill="#f0f6fc" class="blink"/>
+    </g>
+
+    <g class="mono" transform="translate(718 78)">
+      <text x="0" y="0" fill="#8b949e" font-size="11" letter-spacing="1.7">BUILD / PROFILE</text>
+      <circle cx="429" cy="-4" r="4" fill="#3fb950" class="pulse"/>
+      <text x="417" y="0" fill="#3fb950" font-size="10" text-anchor="end">RUNNING</text>
+
+      <g transform="translate(0 26)" font-size="12">
+        <g class="log-1">
+          <text x="0" y="0" fill="#484f58">00:01</text>
+          <text x="52" y="0" fill="#c9d1d9">contracts.check</text>
+          <text x="430" y="0" fill="#3fb950" text-anchor="end">PASS</text>
+        </g>
+        <g class="log-2">
+          <text x="0" y="30" fill="#484f58">00:02</text>
+          <text x="52" y="30" fill="#c9d1d9">tests.run</text>
+          <text x="430" y="30" fill="#3fb950" text-anchor="end">PASS</text>
+        </g>
+        <g class="log-3">
+          <text x="0" y="60" fill="#484f58">00:03</text>
+          <text x="52" y="60" fill="#c9d1d9">eval.paired</text>
+          <text x="430" y="60" fill="#3fb950" text-anchor="end">PASS</text>
+        </g>
+        <g class="log-4">
+          <text x="0" y="90" fill="#484f58">00:04</text>
+          <text x="52" y="90" fill="#c9d1d9">trace.emit</text>
+          <text x="430" y="90" fill="#d29922" text-anchor="end">READY</text>
+        </g>
+      </g>
+
+      <g transform="translate(0 144)">
+        <rect x="0" y="0" width="430" height="46" rx="5" fill="#010409" stroke="#21262d"/>
+        <text x="18" y="18" fill="#484f58" font-size="10">PIPELINE</text>
+        <text x="18" y="35" fill="#8b949e" font-size="11">src</text>
+        <path d="M46 31H90M134 31H178M230 31H274M328 31H376" fill="none" stroke="#3fb950" stroke-opacity="0.65" class="flow"/>
+        <text x="96" y="35" fill="#c9d1d9" font-size="11">build</text>
+        <text x="184" y="35" fill="#c9d1d9" font-size="11">test</text>
+        <text x="280" y="35" fill="#c9d1d9" font-size="11">measure</text>
+        <text x="382" y="35" fill="#7ee787" font-size="11">ship</text>
+      </g>
+    </g>
+
+    <rect x="12" y="263" width="1176" height="25" fill="#161b22"/>
+    <rect x="12" y="263" width="92" height="25" fill="#238636"/>
+    <text x="28" y="280" class="mono" fill="#ffffff" font-size="11" font-weight="700">NORMAL</text>
+    <text x="119" y="280" class="mono" fill="#c9d1d9" font-size="11">main*</text>
+    <text x="177" y="280" class="mono" fill="#8b949e" font-size="11">utf-8</text>
+    <text x="1159" y="280" class="mono" fill="#8b949e" font-size="11" text-anchor="end">build / measure / ship</text>
+  </g>
+  <rect x="12.5" y="12.5" width="1175" height="275" rx="11.5" fill="none" stroke="#30363d"/>
+</svg>
