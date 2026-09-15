@@ -1,6 +1,6 @@
 <div align="center">
 
-![Atlas — Systems Engineer](./assets/atlas-terminal-v4.svg)
+<img src="./assets/atlas-terminal-v5.svg" alt="Atlas — Systems Engineer" width="100%">
 
 <a href="https://github.com/Josepheeeee?tab=repositories"><img src="https://img.shields.io/badge/Explore%20projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore projects"></a>
 <a href="https://github.com/Josepheeeee"><img src="https://img.shields.io/badge/GitHub-Josepheeeee-4338CA?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
